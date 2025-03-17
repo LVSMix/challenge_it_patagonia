@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "db0ae26c-30e0-445e-8fd6-9198cb783a87",
+		"name": "challenge_it_patagonia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1081095"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/empresas/transferencias-mes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/empresas/transferencias-mes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empresas",
+						"transferencias-mes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/empresas/adhesiones-mes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/empresas/adhesiones-mes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empresas",
+						"adhesiones-mes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/empresas/adhesion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cuit\": \"30-12345678-9\",\r\n    \"razonSocial\": \"Pollos Hermanos\",\r\n    \"fechaAdhesion\": \"2024-02-16\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/empresas/adhesion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empresas",
+						"adhesion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/transferencias",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idEmpresa\": \"30-12345678-9\",\r\n    \"importe\": 50000.00,\r\n    \"cuentaDebito\": \"123456789\",\r\n    \"cuentaCredito\": \"987654321\",\r\n    \"fechaTransferencia\": \"2025-02-12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transferencias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transferencias"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
