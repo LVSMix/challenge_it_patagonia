@@ -4,7 +4,6 @@ import org.example.challenge.it.patagonia.domain.model.Empresa;
 import org.example.challenge.it.patagonia.domain.model.Transferencia;
 import org.example.challenge.it.patagonia.infraestructure.repository.EmpresaRepository;
 import org.example.challenge.it.patagonia.infraestructure.repository.TransferenciaRepository;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

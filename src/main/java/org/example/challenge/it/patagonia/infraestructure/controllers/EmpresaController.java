@@ -1,7 +1,7 @@
 package org.example.challenge.it.patagonia.infraestructure.controllers;
 
-import org.example.challenge.it.patagonia.domain.model.Empresa;
 import org.example.challenge.it.patagonia.application.services.EmpresaService;
+import org.example.challenge.it.patagonia.domain.model.Empresa;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
