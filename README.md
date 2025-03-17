@@ -99,6 +99,11 @@ curl http://localhost:8080/empresas/adhesiones-mes
 - `src/main/java/org/example/challenge/it/patagonia/infraestructure/controllers`: Controladores REST.
 - `src/main/java/org/example/challenge/it/patagonia/infraestructure/repository`: Repositorios de MongoDB.
 
+Se adjunta la collection de postman para probar los endpoints.
+
+[challenge_it_patagonia.postman_collection.json](challenge_it_patagonia.postman_collection.json)
+
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que desees realizar.
