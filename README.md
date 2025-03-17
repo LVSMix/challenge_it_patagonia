@@ -19,13 +19,13 @@ Este proyecto es una aplicación de Spring Boot que gestiona empresas y sus tran
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_PROYECTO>
+   git clone https://github.com/LVSMix/challenge_it_patagonia
+   cd challenge_it_patagonia
    ```
 
 2. Configura la conexión a MongoDB en el archivo `application.properties`:
    ```properties
-   spring.data.mongodb.uri=mongodb://localhost:27017/nombre_de_tu_base_de_datos
+   spring.data.mongodb.uri=mongodb://localhost:27017/itpatagonia
    ```
 
 3. Construye el proyecto con Maven:
@@ -37,6 +37,12 @@ Este proyecto es una aplicación de Spring Boot que gestiona empresas y sus tran
    ```bash
    mvn spring-boot:run
    ```
+5. Ojo para ejecutar los test y para que la aplicacion funcione correctamente se tiene que ejecutar
+   el archivo `docker-compose.yml` que se encuentra en la raiz del proyecto.
+  ```bash
+   docker-compose up 
+  ```
+
 
 ## Endpoints
 
